@@ -9,7 +9,7 @@
 
 Since there is no "shadow" attribute in style list of Android,if we want to add a shadow effect on a component,we must patch a PNG-24 picture,but it's so non-graceful;therefore here comes a SVG shadow plugin to help with this problem. **We suggest you to use native shadow on iOS**
 
-![Effect](http://7xsm7w.com1.z0.glb.clouddn.com/20161015151531.png)
+
 
 There are two BoxShadow Elements in the picture which support `border-radius`,and the Line at the bottom is generated with `BorderShadow` which provide with a top or bottom shadow(can also be inset shadow)
 
@@ -19,7 +19,7 @@ There are two BoxShadow Elements in the picture which support `border-radius`,an
 ### First
 you must run the command to install the plugin and its dependences in you project
 ```bash
-yarn add react-native-shadow
+yarn add git+https://github.com/gk-git/react-native-shadow.git
 ``` 
 
 ### Second
